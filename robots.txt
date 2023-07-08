@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://yihansheu.github.io/blog//sitemap.xml
+Sitemap: https://yihansheu.github.io/sitemap.xml
