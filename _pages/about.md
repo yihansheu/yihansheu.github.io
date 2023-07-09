@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p></p>
-    <p></p>
+    <p style="font-style: italic;">"One should produce a mind that dwells nowhere."</p>
+    <p> - the Diamond Sutra </p>
     <p></p>
 
 news: false  # includes a list of news items
