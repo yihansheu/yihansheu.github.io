@@ -10,6 +10,7 @@
 	month = may,
 	year = {2023},
 	pmid = {37226828},
+	note = {},
 	keywords = {biobank, causal inference, inverse probability weighting, polygenic risk score, selection bias},
 	pages = {1--11},
 }
@@ -23,13 +24,14 @@
 	abstract = {Growing evidence has shown that applying machine learning models to large clinical data sources may exceed clinician performance in suicide risk stratification. However, many existing prediction models either suffer from "temporal bias" (a bias that stems from using case-control sampling) or require training on all available patient visit data. Here, we adopt a "landmark model" framework that aligns with clinical practice for prediction of suicide-related behaviors (SRBs) using a large electronic health record database. Using the landmark approach, we developed models for SRB prediction (regularized Cox regression and random survival forest) that establish a time-point (e.g., clinical visit) from which predictions are made over user-specified prediction windows using historical information up to that point. We applied this approach to cohorts from three clinical settings: general outpatient, psychiatric emergency department, and psychiatric inpatients, for varying prediction windows and lengths of historical data. Models achieved high discriminative performance (area under the Receiver Operating Characteristic curve 0.74-0.93 for the Cox model) across different prediction windows and settings, even with relatively short periods of historical data. In short, we developed accurate, dynamic SRB risk prediction models with the landmark approach that reduce bias and enhance the reliability and portability of suicide risk prediction models.},
 	language = {eng},
 	journal = {Psychiatry research},
-	author = {Sheu, Yi-han and Sun, Jiehuan and Lee, Hyunjoon and Castro, Victor M. and Barak-Corren, Yuval and Song, Eugene and Madsen, Emily M. and Gordon, William J. and Kohane, Isaac S. and Churchill, Susanne E. and Reis, Ben Y. and Cai, Tianxi and Smoller, Jordan W.},
+	author = {Sheu*, Yi-han and Sun*, Jiehuan and Lee, Hyunjoon and Castro, Victor M. and Barak-Corren, Yuval and Song, Eugene and Madsen, Emily M. and Gordon, William J. and Kohane, Isaac S. and Churchill, Susanne E. and Reis, Ben Y. and Cai^, Tianxi and Smoller^, Jordan W.},
 	month = may,
 	year = {2023},
 	pmid = {37003169},
 	pmcid = {PMC10267893},
 	keywords = {*Emergency Service, Hospital, *Suicide, Attempted/psychology, Electronic health record, Humans, Landmark model, Prediction, Reproducibility of Results, ROC Curve, Suicide attempt},
 	pages = {115175},
+	selected={true},
 }
 
 @article{sheu_ai-assisted_2023,
@@ -47,7 +49,9 @@
 	year = {2023},
 	pmid = {37100858},
 	pmcid = {PMC10133261},
+	note = {},
 	pages = {73},
+	selected={true},
 }
 
 @article{sheu_initial_2023,
@@ -63,24 +67,22 @@
 	month = apr,
 	year = {2023},
 	pmid = {36724694},
+	note = {},
 	keywords = {*Bupropion, *Electronic Health Records, Adult, Antidepressant, Antidepressive Agents/therapeutic use, Depression, Electronic health records, Humans, Mirtazapine/therapeutic use, Natural language processing, Selective Serotonin Reuptake Inhibitors},
 	pages = {22--31},
 }
 
-@article{walsh_development_2023,
-	address = {United States},
-	title = {Development and {Multi}-{Site} {External} {Validation} of a {Generalizable} {Risk} {Prediction} {Model} for {Bipolar} {Disorder}.},
-	doi = {10.1101/2023.02.21.23286251},
-	abstract = {Bipolar disorder is a leading contributor to disability, premature mortality, and suicide. Early identification of risk for bipolar disorder using generalizable predictive models trained on diverse cohorts around the United States could improve targeted assessment of high risk individuals, reduce misdiagnosis, and improve the allocation of limited mental health resources. This observational case-control study intended to develop and validate generalizable predictive models of bipolar disorder as part of the multisite, multinational PsycheMERGE Consortium across diverse and large biobanks with linked electronic health records (EHRs) from three academic medical centers: in the Northeast (Massachusetts General Brigham), the Mid-Atlantic (Geisinger) and the Mid-South (Vanderbilt University Medical Center). Predictive models were developed and validated with multiple algorithms at each study site: random forests, gradient boosting machines, penalized regression, including stacked ensemble learning algorithms combining them. Predictors were limited to widely available EHR-based features agnostic to a common data model including demographics, diagnostic codes, and medications. The main study outcome was bipolar disorder diagnosis as defined by the International Cohort Collection for Bipolar Disorder, 2015. In total, the study included records for 3,529,569 patients including 12,533 cases (0.3\%) of bipolar disorder. After internal and external validation, algorithms demonstrated optimal performance in their respective development sites. The stacked ensemble achieved the best combination of overall discrimination (AUC = 0.82 - 0.87) and calibration performance with positive predictive values above 5\% in the highest risk quantiles at all three study sites. In conclusion, generalizable predictive models of risk for bipolar disorder can be feasibly developed across diverse sites to enable precision medicine. Comparison of a range of machine learning methods indicated that an ensemble approach provides the best performance overall but required local retraining. These models will be disseminated via the PsycheMERGE Consortium website.},
-	language = {eng},
-	journal = {medRxiv},
-	author = {Walsh, Colin G. and Ripperger, Michael A. and Hu, Yirui and Sheu, Yi-han and Wilimitis, Drew and Zheutlin, Amanda B. and Rocha, Daniel and Choi, Karmel W. and Castro, Victor M. and Kirchner, H. Lester and Chabris, Christopher F. and Davis, Lea K. and Smoller, Jordan W.},
-	month = feb,
+@article {Walsh2023.02.21.23286251,
+	author = {Colin G. Walsh and Michael A. Ripperger and Yirui Hu and Yi-han Sheu and Drew Wilimitis and Amanda B. Zheutlin and Daniel Rocha and Karmel W. Choi and Victor M. Castro and H. Lester Kirchner and Christopher F. Chabris and Lea K. Davis and Jordan W. Smoller},
+	title = {Development and Multi-Site External Validation of a Generalizable Risk Prediction Model for Bipolar Disorder},
+	elocation-id = {2023.02.21.23286251},
 	year = {2023},
-	pmid = {36865341},
-	pmcid = {PMC9980254},
-
-
+	doi = {10.1101/2023.02.21.23286251},
+	publisher = {Cold Spring Harbor Laboratory Press},
+	abstract = {Bipolar disorder is a leading contributor to disability, premature mortality, and suicide. Early identification of risk for bipolar disorder using generalizable predictive models trained on diverse cohorts around the United States could improve targeted assessment of high risk individuals, reduce misdiagnosis, and improve the allocation of limited mental health resources.This observational case-control study intended to develop and validate generalizable predictive models of bipolar disorder as part of the multisite, multinational PsycheMERGE Consortium across diverse and large biobanks with linked electronic health records (EHRs) from three academic medical centers: in the Northeast (Massachusetts General Brigham), the Mid-Atlantic (Geisinger) and the Mid-South (Vanderbilt University Medical Center).Predictive models were developed and validated with multiple algorithms at each study site: random forests, gradient boosting machines, penalized regression, including stacked ensemble learning algorithms combining them. Predictors were limited to widely available EHR-based features agnostic to a common data model including demographics, diagnostic codes, and medications. The main study outcome was bipolar disorder diagnosis as defined by the International Cohort Collection for Bipolar Disorder, 2015.In total, the study included records for 3,529,569 patients including 12,533 cases (0.3\%) of bipolar disorder. After internal and external validation, algorithms demonstrated optimal performance in their respective development sites. The stacked ensemble achieved the best combination of overall discrimination (AUC = 0.82 - 0.87) and calibration performance with positive predictive values above 5\% in the highest risk quantiles at all three study sites.In conclusion, generalizable predictive models of risk for bipolar disorder can be feasibly developed across diverse sites to enable precision medicine. Comparison of a range of machine learning methods indicated that an ensemble approach provides the best performance overall but required local retraining. These models will be disseminated via the PsycheMERGE Consortium website.Competing Interest StatementThe authors have declared no competing interest.Funding Statement: All investigators were supported in part by NIMH R01MH118233 (PIs Smoller/Davis). Dr. Smoller is also supported in part by a gift from the Ryan Licht Sang Bipolar Foundation. Dr. Davis is also supported in part by R56MH120736. Dr. Walsh is also supported in part by NIMH R01MH121455 and R01MH116269. Dr. Choi is supported in part by a NARSAD Young Investigator Grant from the Brain \&amp; Behavior Research Foundation. Funders played no role in design and conduct of the study; collection, management, analysis, and interpretation of the data; preparation, review, or approval of the manuscript; and decision to submit the manuscript for publication. Author DeclarationsI confirm all relevant ethical guidelines have been followed, and any necessary IRB and/or ethics committee approvals have been obtained.YesThe details of the IRB/oversight body that provided approval or exemption for the research described are given below:The methods were performed in accordance with relevant guidelines and regulations and approved by Institutional Review Boards at each participating study site: Vanderbilt University Medical Center, Geisinger Health System, Mass General Brigham.I confirm that all necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived, and that any patient/participant/sample identifiers included were not known to anyone (e.g., hospital staff, patients or participants themselves) outside the research group so cannot be used to identify individuals.YesI understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).YesI have followed all appropriate research reporting guidelines and uploaded the relevant EQUATOR Network research reporting checklist(s) and other pertinent material as supplementary files, if applicable.YesStudy data including de-identified electronic health records linked to biobanks. However, complete anonymization to prevent inadvertent or intentional reidentification is not possible with granular healthcare data as those used here. Study-related analytic code and trained algorithms will be made available with publication as per the manuscript text.},
+	URL = {https://www.medrxiv.org/content/early/2023/02/26/2023.02.21.23286251},
+	eprint = {https://www.medrxiv.org/content/early/2023/02/26/2023.02.21.23286251.full.pdf},
+	journal = {medRxiv}
 }
 
 @article{charpignon_causal_2022,
@@ -98,16 +100,9 @@
 	year = {2022},
 	pmid = {36496454},
 	pmcid = {PMC9741618},
+	note = {},
 	keywords = {*Dementia/drug therapy/etiology, *Diabetes Mellitus, Type 2/drug therapy/complications, *Metformin/pharmacology/therapeutic use, Drug Repositioning, Humans, Hypoglycemic Agents/pharmacology/therapeutic use, Medical Records, Network Pharmacology, Sulfonylurea Compounds},
 	pages = {7652},
-}
-
-@article{tyagi_neurahealth_2022,
-	title = {{NeuraHealth}: {An} {Automated} {Screening} {Pipeline} to {Detect} {Undiagnosed} {Cognitive} {Impairment} in {Electronic} {Health} {Records} with {Deep} {Learning} and {Natural} {Language} {Processing}},
-	author = {Tyagi, Tanish and Magdamo, Colin G. and Noori, Ayush and Li, Zhaozhi and Liu, Xiao and Deodhar, Mayuresh and Hong, Zhuoqiao and Ge, Wendong and Ye, Elissa M. and Sheu, Yi-han and Alabsi, Haitham and Brenner, Laura and Robbins, Gregory K. and Zafar, Sahar and Benson, Nicole and Moura, Lidia and Hsu, John and Serrano-Pozo, Alberto and Prokopenko, Dimitry and Tanzi, Rudolph E. and Hyman, Bradley T. and Blacker, Deborah and Mukerji, Shibani S. and Westover, M. Brandon and Das, Sudeshna},
-	month = jun,
-	year = {2022},
-	journal = {arXiv},
 }
 
 @article{chiang_incorporating_2021,
@@ -124,35 +119,23 @@
 	year = {2021},
 	pmid = {34684360},
 	pmcid = {PMC8539112},
+	note = {},
 	keywords = {*Mentoring, *Smoking Cessation, *Weight Gain, Adult, Aged, Diabetes Mellitus, Type 2/*epidemiology/*prevention \& control, Glycated Hemoglobin/analysis, Humans, Intention to Treat Analysis, Kaplan-Meier Estimate, Middle Aged, obesity, prediabetes, primary care, Risk Factors, smoking cessation, Time Factors, type 2 diabetes mellitus},
 	pages = {3360},
 }
 
-@article{yi-han_sheu_phenotyping_2021,
-	title = {Phenotyping {Antidepressant} {Treatment} {Response} with {Deep} {Learning} in {Electronic} {Health} {Records}},
+@article {Sheu2021.08.04.21261512,
 	author = {Yi-han Sheu and Colin Magdamo and Matthew Miller and Sudeshna Das and Deborah Blacker and Jordan W. Smoller},
-	month = jan,
+	title = {Phenotyping Antidepressant Treatment Response with Deep Learning in Electronic Health Records},
+	elocation-id = {2021.08.04.21261512},
 	year = {2021},
-	pages = {2021.08.04.21261512},
+	doi = {10.1101/2021.08.04.21261512},
+	publisher = {Cold Spring Harbor Laboratory Press},
+	abstract = {Efficient, accurate phenotyping for antidepressant treatment response in electronic health records (EHRs) could facilitate precision psychiatry applications but remains a challenge. Increasingly, artificial intelligence methods using {\textquotedblleft}deep learning{\textquotedblright} applied to clinical data have shown promise in complex classification problems. Here, we systematically evaluate the performance of eight deep-learning-based natural language processing models in classifying response to antidepressants in a large real-world healthcare setting. We obtained data spanning 1990-2018 for adults with depression and a co-occurring antidepressant prescription from the EHR data warehouse of the Mass General Brigham healthcare system (n=111,572). Clinical notes were collected for the following time windows after antidepressant initiation: (1) 2 days to 4 weeks, (2) 4{\textendash}12 weeks, and (3) 12{\textendash}26 weeks. A stratified random sample of these note sets (total 4,299 across time periods) were manually reviewed to classify response status as {\textquotedblleft}improved{\textquotedblright} or {\textquotedblleft}no evidence of improvement{\textquotedblright} in depression symptoms. All models performed well, with areas under the receiver operator curve (AUROC) of at least 0.80. Positive predictive values (PPVs) ranged from 0.72 {\textendash} 0.91. In general, models incorporating more information-dense and longer text sequences performed better than others. The best performing model (Longformer-large with sliding window) had an AUROC = 0.88 and PPV = 0.84 at a specificity of 0.88. Our results indicate that deep learning methods applied to EHR data can accurately classify antidepressant response in a real-world healthcare setting. Automated treatment response classification may facilitate a range of research and clinical decision support applications.Competing Interest StatementJWS is a member of the Leon Levy Foundation Neuroscience Advisory Board and received an honorarium for an internal seminar at Biogen, Inc. He is PI of a collaborative study of the genetics of depression and bipolar disorder sponsored by 23andMe for which 23andMe provides analysis time as in-kind support but no payments.Funding StatementNo external funding was received for the purpose of this study.Author DeclarationsI confirm all relevant ethical guidelines have been followed, and any necessary IRB and/or ethics committee approvals have been obtained.YesThe details of the IRB/oversight body that provided approval or exemption for the research described are given below:This study was reviewed and approved by institutional review board of the Mass General Brigham (MGB) Healthcare System (Boston, MA, USA; Protocol number: $\#$2018P000765), which granted permission to process and analyze the electronic healthcare data provided by MGB for the purpose of this study.All necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived.YesI understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).YesI have followed all appropriate research reporting guidelines and uploaded the relevant EQUATOR Network research reporting checklist(s) and other pertinent material as supplementary files, if applicable.YesThe electronic health records data used in this study are not available to the public or per request for privacy protection.},
+	URL = {https://www.medrxiv.org/content/early/2021/08/04/2021.08.04.21261512},
+	eprint = {https://www.medrxiv.org/content/early/2021/08/04/2021.08.04.21261512.full.pdf},
 	journal = {medRxiv},
-}
-
-@article{magdamo_active_2021,
-	title = {Active deep learning to detect cognitive concerns in electronic health records},
-	volume = {17},
-	number = {S11},
-	author = {Magdamo, Colin G. and Hong, Zhuoqiao Mia and Noori, Ayush and Sheu, Yi-han and Deodhar, Mayuresh and Ye, Elissa M. and Ge, Wendong and Sun, Haoqi and Brenner, Laura and Robbins, Gregory K. and Mukerji, Shibani and Zafar, Sahar F. and Benson, Nicole and Moura, Lidia Maria V. and Hsu, John and Arnold, Steven E. and Hyman, Bradley T. and Serrano-Pozo, Alberto and Westover, M. Brandon and Blacker, Deborah and Das, Sudeshna},
-	year = {2021},
-	pages = {e055362},
-	journal = {Alzheimer's and dementia},
-}
-
-@article{hong_natural_2020,
-	title = {Natural {Language} {Processing} to {Detect} {Cognitive} {Concerns} in {Electronic} {Health} {Records} {Using} {Deep} {Learning}},
-	author = {Hong*, Zhuoqiao and Magdamo*, Colin G. and Sheu*, Yi-han and Mohite, Prathamesh and Noori, Ayush and Ye, Elissa M. and Ge, Wendong and Sun, Haoqi and Brenner, Laura and Robbins, Gregory and Mukerji, Shibani and Zafar, Sahar and Benson, Nicole and Moura, Lidia and Hsu, John and Hyman, Bradley T. and Westover, Michael B. and Blacker, Deborah and Das, Sudeshna},
-	month = nov,
-	year = {2020},
-	journal = {arXiv},
+	selected={true},
 }
 
 @article{sheu_illuminating_2020,
@@ -168,8 +151,10 @@
 	year = {2020},
 	pmid = {33192663},
 	pmcid = {PMC7658441},
+	note = {},
 	keywords = {deep learning, deep neural networks, explainable AI, machine learning, model interpretability, psychiatry},
 	pages = {551299},
+	selected={true},
 }
 
 @article{swanson_firearm_2020,
@@ -185,6 +170,7 @@
 	year = {2020},
 	pmid = {32409621},
 	pmcid = {PMC8165151},
+	note = {},
 	keywords = {adolescent, firearm, suicide/self?harm},
 	pages = {injuryprev--2019--043605},
 }
@@ -203,19 +189,9 @@
 	month = dec,
 	year = {2015},
 	pmid = {26113668},
+	note = {},
 	keywords = {Adult, Bone Density, Cohort Studies, Female, Fractures, Bone/*epidemiology/etiology, Hot Flashes/*drug therapy, Humans, Mental Disorders, Middle Aged, Perimenopause, Regression Analysis, Risk Factors, Selective Serotonin Reuptake Inhibitors/*adverse effects/therapeutic use, United States/epidemiology},
 	pages = {397--403},
-}
-
-@article{chen_racial_2015,
-	title = {Racial differences in suicide deaths after cancer diagnosis: {A} {SEER}-based analysis of 2,336,949 patients.},
-	volume = {33},
-	number = {29\_suppl},
-	author = {Chen, Yu-Wei and Wu, Chao-Ping and Chiu, Yu-Han and Chang, Angela Y. and Chen, Chen-Hao and Feng, Yen-Chen and Lin, Sheng-Hsuan and Sheu, Yi-han and Lin, Yen-Feng},
-	month = oct,
-	year = {2015},
-	pages = {244--244},
-	journal = {Journal of clinical oncology},
 }
 
 @article{lanteigne_serotonin-norepinephrine_2015,
@@ -232,6 +208,7 @@
 	year = {2015},
 	pmid = {25708711},
 	pmcid = {PMC4380622},
+	note = {},
 	keywords = {Aged, Aged, 80 and over, Antidepressive Agents/*adverse effects/therapeutic use, Cohort Studies, Depressive Disorder/drug therapy/epidemiology, Female, Follow-Up Studies, Fractures, Bone/chemically induced/*epidemiology, Humans, Male, Middle Aged, Proportional Hazards Models, Risk, Selective Serotonin Reuptake Inhibitors/*adverse effects/therapeutic use, Serotonin and Noradrenaline Reuptake Inhibitors/*adverse effects/therapeutic use},
 	pages = {245--252},
 }
@@ -245,11 +222,12 @@
 	abstract = {BACKGROUND/PURPOSE: The USA Food and Drug Administration (FDA) issued warnings regarding the use of antipsychotics in patients with dementia in 2003 and 2005. We aimed to study the dose and duration of antipsychotic treatment in dementia, and to examine whether physicians' prescription behaviors changed after the FDA warnings. METHODS: Medical charts of outpatients who had Alzheimer's disease, vascular dementia, or mixed dementia were reviewed. Patients must have achieved a clinically stable state for at least 4 weeks after receiving antipsychotic treatment for agitation or psychosis. Demographics, clinical correlates, and duration of antipsychotic treatment were compared among different antipsychotic groups. Because the quetiapine group had the largest sample size, the optimal dose and duration of quetiapine treatment were compared among three time periods (before 2003, 2003-2005, after 2005). RESULTS: Stable state was achieved in 215 patients (80 had Alzheimer's disease, 117 vascular dementia, and 18 mixed dementia). Most patients (177) took quetiapine, 25 took risperidone, and 13 took sulpiride. The whole sample had a long total duration of antipsychotic treatment (median 525 days, mean 707 days). The median dose and total duration of antipsychotic treatment were 1.0mg/day and 238 days for risperidone, 100mg/day and 390 days for sulpiride, and 25mg/day and 611 days for quetiapine, respectively. The optimal dose and total duration of quetiapine treatment decreased significantly after FDA warning in 2005, although the duration remained long. CONCLUSION: The optimal doses of antipsychotics were not higher than those of western reports, but the total duration of antipsychotic treatment was quite long. Although our study suggests the prescription dosage and duration of antipsychotic treatment decreased significantly after FDA warning in 2005, the duration of treatment was still long. Given the serious safety concerns, more effort should be made to avoid unnecessary and prolonged prescription.},
 	language = {eng},
 	number = {2},
-	journal = {Journal of the Formosan Medical Association},
+	journal = {Journal of the Formosan Medical Association = Taiwan yi zhi},
 	author = {Lin, Yi-Ting and Hwang, Tzung-Jeng and Shan, Jia-Chi and Chiang, Huey-Ling and Sheu, Yi-han and Hwu, Hai-Gwo},
 	month = feb,
 	year = {2015},
 	pmid = {25678176},
+	note = {},
 	keywords = {Aged, Aged, 80 and over, agitation, antipsychotic agents, Antipsychotic Agents/*administration \& dosage/adverse effects, dementia, Dementia/*drug therapy, Female, Humans, Male, Middle Aged, Outpatients, Psychomotor Agitation/*drug therapy, quetiapine, Quetiapine Fumarate/*administration \& dosage/adverse effects, Retrospective Studies, risperidone, Risperidone/*administration \& dosage/adverse effects, Severity of Illness Index, Sulpiride/*administration \& dosage/adverse effects, Taiwan, Treatment Outcome},
 	pages = {147--153},
 }
@@ -267,6 +245,7 @@
 	month = apr,
 	year = {2010},
 	pmid = {20447014},
+	note = {},
 	keywords = {Adolescent, Adult, Antipsychotic Agents/therapeutic use, Aripiprazole, Female, Humans, Male, Piperazines/*therapeutic use, Psychiatric Status Rating Scales, Psychotic Disorders/diagnosis/*drug therapy, Quinolones/*therapeutic use, Treatment Outcome},
 	pages = {202--206},
 }
