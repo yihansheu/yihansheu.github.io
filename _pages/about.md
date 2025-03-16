@@ -20,7 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Evidence-based medicine has relied heavily on averages derived from clinical trials and observational studies. This approach neglects the uniqueness of individuals and often leads to suboptimal decisions.
+Contemporary medical practice has relied heavily on averages derived from clinical trials and observational studies. This approach neglects the uniqueness of individuals and often leads to suboptimal decisions.
 
 My research aims to catalyze a paradigm shift toward fully personalized medical practice, where actions are optimized for each individual patient at every moment. To achieve this, I develop robust and reliable AI models that predict individual prognoses and treatment responses by integrating AI, causal inference, and medical expertise. Conversely, model-based predictions are used to further enhance scientific understanding.
 
