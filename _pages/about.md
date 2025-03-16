@@ -24,5 +24,5 @@ Contemporary medical practice has relied heavily on averages derived from clinic
 
 My research aims to catalyze a paradigm shift toward fully personalized medical practice, where actions are optimized for each individual patient at every moment. To achieve this, I develop robust and reliable AI models that predict individual prognoses and treatment responses by integrating AI, causal inference, and medical expertise. Conversely, model-based predictions are used to further enhance scientific understanding.
 
-Mental health is a particular focus and interest of my research. Additionally, I am enthusiastic about and actively engaged in research on general AI.
+I am particularly interested in mental health, a cornerstone of human well-being. Additionally, I am passionate about and actively engaged in research on general AI.
 
