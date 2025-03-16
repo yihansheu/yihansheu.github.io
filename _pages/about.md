@@ -20,9 +20,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Evidence-based medicine, over many past decades, has relied heavily on averages — treating patients based on means derived from clinical trials and observational studies. Despite our familiarity with this convention, it is severely limited, as it overlooks the unique challenges and uncertainties each individual faces in managing their health, often leading to suboptimal decisions and failing to anticipate and prevent issues that could be effectively addressed by fully considering individual differences.
+Evidence-based medicine has relied heavily on averages derived from clinical trials and observational studies. This approach neglects the uniqueness of individuals and often leads to suboptimal decisions.
 
-My research aims to catalyze a paradigm shift towards fully personalized medical practice, where prevention strategies and treatments are optimized for every individual patient at every moment, maximizing both life longevity and quality. To achieve this, an intermediary goal is to develop AI models that predict individual clinical outcomes and differential treatment responses with unprecedented precision and timeliness. To do so, I integrate AI, causal inference, and medical expertise. Conversely, model-based predictions are used to further scientific understanding by uncovering new relationships between patient characteristics, treatments, and outcomes. 
+My research aims to catalyze a paradigm shift toward fully personalized medical practice, where actions are optimized for each individual patient at every moment. To achieve this, I develop robust and reliable AI models that predict individual prognoses and treatment responses by integrating AI, causal inference, and medical expertise. Conversely, model-based predictions are used to further enhance scientific understanding.
 
-A special focus of my research and interest is mental health, where this personalized approach could transform our understanding and treatment of complex psychological conditions; and the broader and fundamental experiences and issues of being human. 
+Mental health is a particular focus and interest of my research. Additionally, I am enthusiastic about and actively engaged in research on general AI.
 
